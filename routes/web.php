@@ -23,6 +23,17 @@ Route::get('/', function () {
 */
 
 //練習1-6
-Route::get('home',function(){
+/*Route::get('home',function(){
     return view('home.index');
 });
+*/
+
+//練習1-8
+class HomeController extends Controller
+{
+    public function index()
+    {
+
+        return view('home.index');
+    }
+}
