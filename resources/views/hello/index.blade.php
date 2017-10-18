@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 2017/10/18
- * Time: 下午 06:11
- */
+@extends('layouts.master')
+@section('title','Hello')
+@section('content')
+    <h1>This is{{$name}}'shome.</h1>
+@endsection
