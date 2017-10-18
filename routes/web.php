@@ -28,5 +28,7 @@ Route::get('/', function () {
 });
 */
 
-//練習1-8
+//練習3-3
+Route::get('hello/{name?}',['as'=>'hello.index','uses'=>
+    'HelloController@index']);
 
