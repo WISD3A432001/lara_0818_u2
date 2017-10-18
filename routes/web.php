@@ -17,6 +17,12 @@ Route::get('/', function () {
 */
 
 //練習1-2
-Route::get('home',function(){
+/*Route::get('home',function(){
     return view('home');
+});
+*/
+
+//練習1-6
+Route::get('home',function(){
+    return view('home.index');
 });
